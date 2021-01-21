@@ -1,0 +1,23 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+      
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true  
+    
+security:
+  config:
+    admin-role: gp_admin_browser
+    guest-role: gp_guest_browser
+    user-role: gp_user_browser
+    admin-user-name: admin
+    admin-password: password
+    guest-user-name: guest
+    guest-password: password
+    api-user-name: user
+    api-password: password
+     
